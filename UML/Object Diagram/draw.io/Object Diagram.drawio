@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="WxgpG-88Fr4L1MxjePu_">
+    <mxGraphModel dx="1585" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="404" pageHeight="196" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Categories&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;name = Sains&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;created_at = &lt;font face=&quot;sans-serif&quot; style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;2026-09-21&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;update_at = 2026-10-21&lt;/p&gt;" vertex="1">
+          <mxGeometry height="101" width="160" x="40" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-20" edge="1" parent="1" source="-6mCp0ELgEoFr8SZMotq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-6mCp0ELgEoFr8SZMotq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Books&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;category_id = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;title = Laskar Pelangi&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;author = Andrea Hirata&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;publisher = Bentang Pustaka&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;year = 2000&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;isbn = 978-979-3062-79-2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;description = Berceritakan...&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;cover = image.jpg&lt;/p&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-11" edge="1" parent="1" source="-6mCp0ELgEoFr8SZMotq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" target="-6mCp0ELgEoFr8SZMotq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-12" parent="1" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1..*" vertex="1">
+          <mxGeometry height="26" width="20" x="210" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-16" parent="1" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1..1" vertex="1">
+          <mxGeometry height="26" width="20" x="290" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-24" edge="1" parent="1" source="-6mCp0ELgEoFr8SZMotq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="-6mCp0ELgEoFr8SZMotq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-18" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Users&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;name = Adji Putra Ismanto&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;email = Adjiputra@gmail.com&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;password = adjiadji1234&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;role = user&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;created_at = 2025-1-20&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="170" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-19" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Borrowings&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;user_id = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;book_id =1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;borrowed_at = 2026-9-12&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;due_ate = 2026-10-1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;returned_at = 2026-7-19&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;status = pending&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;approved_by = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;approved_at = 2026-9-12&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;rejected_by = 2026-10-1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;rejected_at = 2026-9-13&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;returned_by_ = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;admin_note: jagan dirusak&lt;/p&gt;" vertex="1">
+          <mxGeometry height="230" width="160" x="325" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-21" parent="1" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1..*" vertex="1">
+          <mxGeometry height="26" width="20" x="410" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-23" parent="1" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1..1" vertex="1">
+          <mxGeometry height="26" width="20" x="370" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-25" parent="1" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1..*" vertex="1">
+          <mxGeometry height="26" width="20" x="650" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-6mCp0ELgEoFr8SZMotq-26" parent="1" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1..*" vertex="1">
+          <mxGeometry height="26" width="20" x="500" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
