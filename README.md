@@ -1,12 +1,10 @@
-# 📚 Sistem Peminjaman Buku Perpustakaan Berbasis Web
-
-[![GitHub stars](https://shields.io)](https://github.com)
+# Sistem Peminjaman Buku Perpustakaan Berbasis Web
 
 Proyek ini merupakan sistem informasi manajemen perpustakaan yang dikembangkan untuk memenuhi tugas mata kuliah **Rekayasa Perangkat Lunak (RPL)**. Sistem ini dirancang untuk mempermudah proses administrasi sirkulasi buku, mulai dari pendataan, peminjaman, pengembalian, hingga pemantauan status buku secara efisien dan berbasis web.
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 - **Autentikasi & Otorisasi:** Pemisahan hak akses antara admin perpustakaan, petugas, dan anggota (mahasiswa/siswa).
 - **Manajemen Katalog Buku:** Mempermudah pencarian, penambahan, pembaruan, dan penghapusan data buku.
@@ -16,7 +14,7 @@ Proyek ini merupakan sistem informasi manajemen perpustakaan yang dikembangkan u
 
 ---
 
-## 🛠️ Tumpukan Teknologi (Tech Stack)
+## 🛠️ Tech Stack
 
 Sistem ini dibangun menggunakan teknologi berikut:
 
@@ -29,51 +27,13 @@ Sistem ini dibangun menggunakan teknologi berikut:
 
 ---
 
-## 📂 Struktur Repositori
+## Struktur Repositori
 
 ```text
 rekayasaperangkatlunak/
 ├── SRS/                # Dokumentasi Spesifikasi Kebutuhan Perangkat Lunak
 ├── UML/                # File diagram perancangan sistem (Unified Modeling Language)
 └── README.md           # Dokumentasi utama proyek
-```
-
----
-
-## 💻 Cara Instalasi & Menjalankan Proyek
-
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda:
-
-### 1. Prasyarat
-Pastikan Anda sudah menginstal aplikasi berikut di komputer Anda:
-- Git
-- Web Server Lokal (misal: XAMPP / Laragon untuk PHP+MySQL, atau Node.js jika menggunakan JavaScript backend)
-
-### 2. Kloning Repositori
-```bash
-git clone https://github.com
-cd rekayasaperangkatlunak
-```
-
-### 3. Konfigurasi Database
-1. Buka MySQL server Anda (phpMyAdmin atau sejenisnya).
-2. Buat database baru dengan nama `db_perpustakaan`.
-3. Impor file `.sql` (jika ada) ke dalam database tersebut.
-
-### 4. Menjalankan Aplikasi
-Pindahkan folder proyek ke direktori server lokal Anda (misal `htdocs` untuk XAMPP) dan akses melalui browser:
-```text
-http://localhost/rekayasaperangkatlunak
-```
-
----
-
-## 🖼️ Tangkapan Layar (Screenshots)
-
-| Halaman Utama (Katalog) | Dashboard Admin |
-| --- | --- |
-| *[Tambahkan Gambar Di Sini]* | *[Tambahkan Gambar Di Sini]* |
-
 ---
 
 ## 👥 Kontributor
