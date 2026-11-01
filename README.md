@@ -1,10 +1,6 @@
 # 📚 Sistem Peminjaman Buku Perpustakaan Berbasis Web
 
-<p>
-  <img src="https://shields.io" alt="GitHub license">
-  <img src="https://shields.io" alt="GitHub stars">
-  <img src="https://shields.io" alt="GitHub issues">
-</p>
+[![GitHub stars](https://shields.io)](https://github.com)
 
 Proyek ini merupakan sistem informasi manajemen perpustakaan yang dikembangkan untuk memenuhi tugas mata kuliah **Rekayasa Perangkat Lunak (RPL)**. Sistem ini dirancang untuk mempermudah proses administrasi sirkulasi buku, mulai dari pendataan, peminjaman, pengembalian, hingga pemantauan status buku secara efisien dan berbasis web.
 
