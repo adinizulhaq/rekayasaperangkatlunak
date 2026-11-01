@@ -1,56 +1,38 @@
 # 📚 Sistem Peminjaman Buku Perpustakaan Berbasis Web
-> **Proyek Mata Kuliah:** Rekayasa Perangkat Lunak (RPL)  
-> **Status:** 🛠️ In Development / Kebutuhan Akademik
+
+Proyek ini merupakan sistem informasi manajemen perpustakaan yang dikembangkan untuk memenuhi tugas mata kuliah **Rekayasa Perangkat Lunak (RPL)**. Sistem ini dirancang untuk mempermudah proses administrasi sirkulasi buku, mulai dari pendataan, peminjaman, pengembalian, hingga pemantauan status buku secara efisien dan berbasis web.
 
 ---
 
-## 📌 Sekilas Proyek
-Sistem informasi manajemen perpustakaan modern berbasis web yang dirancang khusus untuk memotong jalur birokrasi manual. Aplikasi ini menangani seluruh siklus sirkulasi buku secara digital, cepat, dan transparan untuk meningkatkan efisiensi administrasi perpustakaan.
+## 🚀 Fitur Utama
+
+- **Autentikasi & Otorisasi:** Pemisahan hak akses antara admin perpustakaan dengan anggota (mahasiswa/siswa).
+- **Manajemen Katalog Buku:** Mempermudah pencarian, penambahan, pembaruan, dan penghapusan data buku.
+- **Sirkulasi Digital:** Pencatatan otomatis transaksi peminjaman dan pengembalian buku.
+- **Laporan Real-time:** Dashboard statistik untuk memantau jumlah buku yang sering dipinjam, total anggota aktif, dan riwayat transaksi.
 
 ---
 
-## 📈 Indikator Proyek
+## 🛠️ Tech Stack
 
-| ✨ Fitur Utama | 🛠️ Teknologi Utama | 📄 Status Dokumen |
-| :--- | :--- | :--- |
-| • Sirkulasi Otomatis <br> • Kalkulator Denda <br> • Multi-level Akses | • Web-Based Architecture <br> • Relational Database <br> • Responsive Layout | • **SRS:** Lengkap & Valid <br> • **UML:** Terintegrasi <br> • **Kode:** 98 Commits |
+Sistem ini dibangun menggunakan teknologi berikut:
 
----
-
-## 🚀 Fitur Unggulan
-
-* **🔐 Multi-user Authentication**
-  Pemisahan hak akses yang ketat antara *Super Admin* (Kepala Perpustakaan), *Petugas* (Sirkulasi), dan *Anggota* (Mahasiswa/Siswa).
-* **📖 Smart Catalog Search**
-  Pencarian buku pintar berdasarkan judul, penulis, penerbit, atau nomor ISBN secara instan.
-* **⏱️ Automated Fine Calculator**
-  Sistem otomatis menghitung biaya denda per hari secara tepat ketika masa peminjaman melewati batas toleransi.
-* **📊 Dashboard Analitik**
-  Grafik ringkas untuk memantau buku yang paling populer, tren peminjaman bulanan, dan status kuota rak.
+* **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
+* **Backend:** PHP / Node.js / Laravel
+* **Database:** MySQL
+* **Dokumentasi & Desain:**
+  * `SRS/` : Dokumen *Software Requirements Specification* lengkap.
+  * `UML/` : Diagram alur sistem (Use Case, Activity, Class Diagram, dll.).
 
 ---
 
-## 📂 Arsitektur Repositori
+## 📂 Struktur Repositori
 
-Klik pada folder untuk melihat detail isi dokumen perancangan:
-
-<details>
-<summary>📂 <b>SRS (Software Requirements Specification)</b></summary>
-<blockquote>
-Memuat seluruh dokumen kebutuhan perangkat lunak formal, termasuk deskripsi umum, kebutuhan fungsional (functional requirements), non-fungsional, serta batasan sistem.
-</blockquote>
-</details>
-
-<details>
-<summary>📂 <b>UML (Unified Modeling Language)</b></summary>
-<blockquote>
-Berisi aset diagram perancangan sistem yang matang:
-<ul>
-  <li><b>Use Case Diagram:</b> Interaksi aktor terhadap sistem.</li>
-  <li><b>Activity Diagram:</b> Alur proses bisnis peminjaman & pengembalian.</li>
-  <li><b>Class Diagram:</b> Struktur database dan hubungan antar objek.</li>
-</ul>
-</blockquote>
-</details>
+```text
+rekayasaperangkatlunak/
+├── SRS/                # Dokumentasi Spesifikasi Kebutuhan Perangkat Lunak
+├── UML/                # File diagram perancangan sistem (Unified Modeling Language)
+└── README.md           # Dokumentasi utama proyek
+```
 
 ---
